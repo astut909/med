@@ -9,8 +9,8 @@ import Footer from '@/components/footer';
 function Page() {
     // console.log(courses)
     return (
-        <div>
-            <div className='h-screen'>
+        <div className='bg-black'>
+            <div className='h-screen '>
                 <h1 className='text-white text-[12vw] flex justify-center mt-12'>
                     All courses is ({courses.length})
                 </h1>

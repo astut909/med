@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ className = "" }) => {
     const [active, setActive] = useState<string>('Home');
 
     return (
-        <div className={cn("fixed top-[2vw] inset-x-0 max-w-2xl mx-auto z-50", className)}>
+        <div className={cn("fixed top-[2vw] inset-x-0 max-w-2xl  mx-auto z-50", className)}>
             <Menu setActive={(item) => item && setActive(item)}>
                 <Link href="/">
                     <MenuItem setActive={setActive} active={active} item="Home">

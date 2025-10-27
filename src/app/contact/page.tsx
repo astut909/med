@@ -52,7 +52,7 @@ export default function Page() {
                 <div>
                     <form
                         onSubmit={handleSubmit}
-                        className="bg-black p-8 rounded-2xl shadow-lg w-full max-w-md"
+                        className="bg-black opacity-60 p-8 rounded-2xl shadow-lg w-full max-w-md"
                     >
                         <h2 className="text-2xl bg-blue-600 rounded-full font-semibold text-center mb-6 text-gray-800">
                             Contact Us
